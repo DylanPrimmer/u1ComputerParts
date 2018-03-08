@@ -1,0 +1,61 @@
+﻿<Window x:Class="U1_03_Dylan_sCompParts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:local="clr-namespace:U1_03_Dylan_sCompParts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button  x:Name="btnMother"  
+                HorizontalAlignment="Left"
+                Margin="10,10,0,0"
+                VerticalAlignment="Top"
+                Width="75"
+                Click="Button_Click">
+            <Image Source="https://www.bhphotovideo.com/images/images2500x2500/asus_rog_strix_x370_f_gaming_1344793.jpg" />
+        </Button>
+
+
+        <Button x:Name="btnCPU"               
+                Visibility="Collapsed"
+                Click="btnCPU_Click">
+            <Image x:Name="imgCPU"
+            Source="https://images-na.ssl-images-amazon.com/images/I/41P-TVYWEpL.jpg" Height="72" Margin="0,0,432,0"
+               Visibility="Collapsed"
+               />
+                
+        </Button>
+        <Button x:Name="btnCASE"
+                Visibility="Collapsed"
+                Click="btnCASE_Click" >
+            <Image x:Name="imgCASE"
+                Source="http://ecx.images-amazon.com/images/I/41L1psoCFDL.jpg" Height="72" Margin="0,0,432,0" 
+                Visibility="Visible"  />
+        </Button>
+
+        <Button x:Name="btnPWRSUPPLY"
+                Visibility="Collapsed"
+                Click="btnPWRSUPPLY_Click" >
+            <Image x:Name="imgPWRSUPPLY"
+                Source="https://cdn.pcpartpicker.com/static/forever/images/product/766078c3e50119e70256ff35efa80e20.1600.jpg" Height="72" Margin="0,0,432,0"
+                Visibility="Visible" />
+        </Button>
+
+        <Button x:Name="btnMEMORY"
+                Visibility="Collapsed"
+                Click="btnMEMORY_Click">
+            <Image x:Name="imgMEMORY"
+                Source="https://cdn.pcpartpicker.com/static/forever/images/product/62426fcc31ced75a05518afdadc03000.1600.jpg"  Height="72" Margin="0,0,432,0"
+                Visibility="Visible" />
+        </Button>
+
+        <Button x:Name="btnSTORAGE"
+                Visibility="Collapsed" >
+            <Image x:Name="imgSTORAGE"
+                Source="http://ecx.images-amazon.com/images/I/51fbLQLVJFL.jpg" Height="72" Margin="0,0,432,0"
+                Visibility="Visible" />
+        </Button>
+    </StackPanel> 
+    </Window> 
+
